@@ -1,7 +1,7 @@
 import discord
 from discord.ext import commands, ipc
 
-TOKEN = ""
+TOKEN = "OTUxOTEzNDMwMDgyNzgxMTg0.YiuYdw.ColKoJmFciBOi5tdANnbQ5n0WQQ"
 
 class MyBot(commands.Bot):
 
@@ -45,7 +45,7 @@ async def get_guild(data):
 	guild_data = {
 		"name": guild.name,
 		"id": guild.id,
-		"prefix" : "?"
+		"prefix" : ""
 	}
 
 	return guild_data
